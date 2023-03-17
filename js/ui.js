@@ -54,7 +54,7 @@ export class Ui {
                        <a href="#" class="badge btn btn-primary">Free</a>
                      </div>
                      <div class="card-text2 text-white-50">
-                       <p>${response[i].short_description}</p>
+                       <p>${response[i].short_description.split("").splice(0,60).join("")}</p>
                      </div>
                    </div>
                  </div>
